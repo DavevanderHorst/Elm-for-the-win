@@ -1,0 +1,4 @@
+site_name: Elm for the win!
+nav:
+    - Home: index.md
+    - About: about.md
