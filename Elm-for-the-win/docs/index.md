@@ -1,6 +1,6 @@
 # Elm for the win!
 
-Elm is purely functional programming language.
+Elm is purely functional programming language. hallo
 
 ## Some examples
 
