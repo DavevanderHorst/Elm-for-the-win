@@ -1,13 +1,31 @@
 # Elm for the win!
 
-For full documentation visit [mkdocs.org](https://www.mkdocs.org).
+Elm is purely functional programming language.
 
-## Commands
+## Some examples
 
-* `mkdocs new [dir-name]` - Create a new project.
-* `mkdocs serve` - Start the live-reloading docs server.
-* `mkdocs build` - Build the documentation site.
-* `mkdocs -h` - Print help message and exit.
+The first line is a so called type annotation, it describes the input and output type of functions.
+In this first case there is only 1 annotation, String, this is the output.
+
+    helloWorld: String
+    helloWorld =
+        "Hello world!"
+
+A little more complicated example example :
+    
+    addNumbers: Int -> Int -> Int    
+    addNumbers number1 number2 =
+        number1 + number2        
+        
+As you can see AddNumbers needs 2 inputs, number1 and number2, both of these are an Int.
+And the output is an Int aswell. 
+
+    -addNumbers: Int (number1) -> 
+                                    -Int (number2) -> 
+                                                        -Int (output, in this case: number1 + number2)
+                                                        
+Everything in elm returns something, the last line is always the return type.                                                        
+        
 
 ## Project layout
 
