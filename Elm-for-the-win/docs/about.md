@@ -1,4 +1,4 @@
-# Elm for the win!
+# Elm for the win! #
 
 Elm is purely functional programming language.
 
